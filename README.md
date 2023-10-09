@@ -4,26 +4,18 @@ Project Name: PØscyΞ Discord ΔI BØT
 
 Description: A simple, fun and useful ΔI Discord chatbot.
 
-GitHub Repository Link: https://git.carreraestrada.com/CYE/poscye-discord-bot
+GitHub Repository Link: https://github.com/pabl-o-ce/poscye-discord-ai-bot
 
 ---
 
-# PØscyΞ Discord ΔI 8ØT
+# PØscyΞ Discord ΔI BØT
 
 ## Docker
 
 Docker support you can run it:
 
 ```sh
-docker run -d \
-  -it \
-  -e NODE_ENV='production' \
-  -e TOKEN='discord_token' \
-  -e CLIENT_ID='discord_token' \
-  -e GUILD_ID='discord_token' \
-  -e OPENAI_TOKEN='discord_token' \
-  -e TGI_URL='discord_token' \
-  --name poscye-discord-bot registry.carreraestrada.com/poscye-discord-bot
+soon
 ```
 
 ## Installation
@@ -31,7 +23,7 @@ docker run -d \
 Clone this repository using git clone command in terminal
 
 ```sh
-git clone https://git.carreraestrada.com/CYE/poscye-discord-bot && cd poscye-tgicord-bot
+git clone https://github.com/pabl-o-ce/poscye-discord-ai-bot && cd poscye-discord-ai-bot
 ```
 
 then install all requirements by running:
@@ -58,7 +50,7 @@ CLIENT_ID=discord_client_id
 GUILD_ID=discord_guild_id
 
 OPENAI_TOKEN=openai_token
-
+STABILITY_SD_TOKEN=stability_token
 TGI_URL=tgi_url
 ```
 
