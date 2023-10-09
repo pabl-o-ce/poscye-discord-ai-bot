@@ -1,0 +1,39 @@
+# Dependency directory
+node_modules/
+
+# TypeScript compiler output
+dist/
+build/
+logs/
+
+# Optional: if you have an output directory other than dist or build
+# out/
+
+# IDE - Visual Studio Code
+.vscode/
+
+# IDE - WebStorm/IntelliJ IDEA/etc.
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.log
+
+# dotenv environment variables file
+.env
+
+# Optional: TypeScript typings
+typings/
+
+# Optional: If using ts-node
+.ts-node/

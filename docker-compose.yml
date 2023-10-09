@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: poscye-bot:latest
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/usr/src/app/logs # If you want to persist logs on the host
+    restart: unless-stopped
