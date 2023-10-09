@@ -65,4 +65,6 @@ pnpm start
 ## Features
 
 - Can use text generation inference from huggingfaces 🤗.
-- Cancel request button
+- GPT and Dalle form OpenAI
+- Stable Difussion from Stability
+- Characters
