@@ -68,3 +68,16 @@ pnpm start
 - GPT and Dalle form OpenAI
 - Stable Difussion from Stability
 - Characters
+
+
+![TGI0](./assets/tgi.png)
+
+![TGI0](./assets/tgi-1.png)
+
+![TGI0](./assets/tgi-2.png)
+
+![TGI0](./assets/openai-gpt.png)
+
+![TGI0](./assets/dalle.png)
+
+![TGI0](./assets/stability.png)
