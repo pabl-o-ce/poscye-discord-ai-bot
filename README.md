@@ -15,7 +15,16 @@ GitHub Repository Link: https://github.com/pabl-o-ce/poscye-discord-ai-bot
 Docker support you can run it:
 
 ```sh
-soon
+docker run -d \
+  -it \
+  -e NODE_ENV='production' \
+  -e TOKEN='discord_token' \
+  -e CLIENT_ID='client_id_token' \
+  -e GUILD_ID='guildID_token' \
+  -e OPENAI_TOKEN='openai_token' \
+  -e STABILITY_SD_TOKEN='stability_token' \
+  -e TGI_URL='tgi_url' \
+  --name poscye-discord-ai-bot ghcr.io/pabl-o-ce/poscye-discord-ai-bot:latest
 ```
 
 ## Installation
