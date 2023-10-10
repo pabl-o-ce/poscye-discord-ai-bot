@@ -25,7 +25,7 @@ WORKDIR /usr/src/app
 # Only copy over the built artifacts from the build stage and the necessary runtime dependencies
 COPY --from=build /usr/src/app/dist ./
 COPY --from=base /usr/src/app/node_modules ./node_modules
-COPY package.json ./
+# COPY package.json ./
 
 # Command to run the application
 CMD ["node", "index.js"]
