@@ -3,16 +3,10 @@ name: Build and Push Docker Image
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - '**.Dockerfile'
-      - 'src/**'
     tags:
       - 'v*.*.*'
   pull_request:
     branches: [ "main" ]
-    paths:
-      - '**.Dockerfile'
-      - 'src/**'
 
 env:
   REGISTRY: ghcr.io

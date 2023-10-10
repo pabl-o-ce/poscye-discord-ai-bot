@@ -64,7 +64,7 @@ pnpm start
 
 ## Features
 
-- Can use text generation inference from huggingfaces 🤗.
+- Can use TGI from huggingfaces 🤗.
 - GPT and Dalle form OpenAI
 - Stable Difussion from Stability
 - Characters
