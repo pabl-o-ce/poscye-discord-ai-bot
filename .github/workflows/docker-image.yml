@@ -58,7 +58,7 @@ jobs:
             suffix=-${{ github.run_number }} 
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v5
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
