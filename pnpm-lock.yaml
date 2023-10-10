@@ -36,8 +36,8 @@ dependencies:
     specifier: ^16.3.1
     version: 16.3.1
   llamaindex:
-    specifier: ^0.0.29
-    version: 0.0.29
+    specifier: ^0.0.30
+    version: 0.0.30
   openai:
     specifier: ^4.5.0
     version: 4.8.0
@@ -2850,8 +2850,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /llamaindex@0.0.29:
-    resolution: {integrity: sha512-3efTF/Nk3lmwPn7nKdimL/ajVan5Tj9taYivsRv3LI7kcxggfcGvU4Y82hNaB1RB8QJYzdAzC0tBvwt6uKDTUA==}
+  /llamaindex@0.0.30:
+    resolution: {integrity: sha512-T0P/LT0ESo0Fm2JaUPsmZGp9OC9Lthix6sNf0VJzl9e1bgA8nlVxLGoMzPNyMHmCEt2W+AbD4m0rBYXnY5w2eA==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@anthropic-ai/sdk': 0.6.2
@@ -2861,11 +2861,12 @@ packages:
       md-utils-ts: 2.0.0
       mongodb: 6.1.0
       notion-md-crawler: 0.0.2
-      openai: 4.10.0
+      openai: 4.11.1
       papaparse: 5.4.1
       pdf-parse: 1.1.1
+      portkey-ai: 0.1.11
       rake-modified: 1.0.8
-      replicate: 0.18.1
+      replicate: 0.20.0
       tiktoken: 1.0.10
       uuid: 9.0.1
       wink-nlp: 1.14.3
@@ -3200,8 +3201,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /openai@4.10.0:
-    resolution: {integrity: sha512-II4b5/7qzwYkqA9MSjgqdofCc798EW+dtF2h6qNaVLet+qO7FShAJTWnoyzb50J4ZH1rPxRFAsmDLIhY3PT6DQ==}
+  /openai@4.11.1:
+    resolution: {integrity: sha512-GU0HQWbejXuVAQlDjxIE8pohqnjptFDIm32aPlNT1H9ucMz1VJJD0DaTJRQsagNaJ97awWjjVLEG7zCM6sm4SA==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.18
@@ -3367,6 +3368,12 @@ packages:
       find-up: 4.1.0
     dev: true
 
+  /portkey-ai@0.1.11:
+    resolution: {integrity: sha512-KRZLB7zdvJ40P6WuRAb6VE2gin7SXhbRs7ESqnxDeO8C+ECtKDrrS5g0+l3pD9+HZO4iCvvIROaRyd1NOyLmWw==}
+    dependencies:
+      agentkeepalive: 4.5.0
+    dev: false
+
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -3464,8 +3471,8 @@ packages:
       strip-indent: 4.0.0
     dev: true
 
-  /replicate@0.18.1:
-    resolution: {integrity: sha512-JFK5qWL7AAajsIjtkW/nTaoX+yKp8zkaANe+pQpBh9RjH5vIy6/tn/sVNlRF1z5bCJLupshJBHFgnHRdWjbKXg==}
+  /replicate@0.20.0:
+    resolution: {integrity: sha512-HSIdj0IHhpegy8s3yDMMYCNLPLZqWzScxnFEyxUQcWgbHn3ycEG5Z8uCwt1Bkp6mTOyEmVv2Ot0WRoXzHFuJ6A==}
     engines: {git: '>=2.11.0', node: '>=18.0.0', npm: '>=7.19.0', yarn: '>=1.7.0'}
     dev: false
 
