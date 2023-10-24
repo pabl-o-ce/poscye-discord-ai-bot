@@ -1,5 +1,5 @@
 # --- Base Stage ---
-FROM node:20-alpine as base
+FROM node:21-alpine as base
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
@@ -18,7 +18,7 @@ COPY . .
 RUN pnpm run build
 
 # --- Runtime Stage ---
-FROM node:20-alpine as runtime-stage
+FROM node:21-alpine as runtime-stage
 
 WORKDIR /usr/src/app
 
