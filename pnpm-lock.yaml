@@ -36,8 +36,8 @@ dependencies:
     specifier: ^16.3.1
     version: 16.3.1
   llamaindex:
-    specifier: ^0.0.30
-    version: 0.0.30
+    specifier: ^0.0.31
+    version: 0.0.31
   openai:
     specifier: ^4.5.0
     version: 4.8.0
@@ -83,8 +83,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.19
     dev: true
 
-  /@anthropic-ai/sdk@0.6.2:
-    resolution: {integrity: sha512-fB9PUj9RFT+XjkL+E9Ol864ZIJi+1P8WnbHspN3N3/GK2uSzjd0cbVIKTGgf4v3N8MwaQu+UWnU7C4BG/fap/g==}
+  /@anthropic-ai/sdk@0.8.1:
+    resolution: {integrity: sha512-59etePenCizVx1O8Qhi1T1ruE04ISfNzCnyhZNcsss1QljsLmYS83jttarMNEvGYcsUF7rwxw2lzcC3Zbxao7g==}
     dependencies:
       '@types/node': 18.17.18
       '@types/node-fetch': 2.6.5
@@ -94,6 +94,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
+      web-streams-polyfill: 3.2.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -1361,8 +1362,8 @@ packages:
       node-int64: 0.4.0
     dev: true
 
-  /bson@6.1.0:
-    resolution: {integrity: sha512-yiQ3KxvpVoRpx1oD1uPz4Jit9tAVTJgjdmjDKtUErkOoL9VNoF8Dd58qtAOL5E40exx2jvAT9sqdRSK/r+SHlA==}
+  /bson@6.2.0:
+    resolution: {integrity: sha512-ID1cI+7bazPDyL9wYy9GaQ8gEEohWvcUl/Yf0dIdutJxnmInEEyCsb4awy/OiBfall7zBA179Pahi3vCdFze3Q==}
     engines: {node: '>=16.20.1'}
     dev: false
 
@@ -2850,23 +2851,23 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /llamaindex@0.0.30:
-    resolution: {integrity: sha512-T0P/LT0ESo0Fm2JaUPsmZGp9OC9Lthix6sNf0VJzl9e1bgA8nlVxLGoMzPNyMHmCEt2W+AbD4m0rBYXnY5w2eA==}
+  /llamaindex@0.0.31:
+    resolution: {integrity: sha512-le1Ba2a5/vrfhA7zzSbfJhlLNKemkOKCyquIU7QmquTMiwQ2Tm/Job/vt2zmxllOop3EIbxt2aEUwF7xXEf5bg==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@anthropic-ai/sdk': 0.6.2
+      '@anthropic-ai/sdk': 0.8.1
       '@notionhq/client': 2.2.13
       lodash: 4.17.21
       mammoth: 1.6.0
       md-utils-ts: 2.0.0
-      mongodb: 6.1.0
+      mongodb: 6.2.0
       notion-md-crawler: 0.0.2
-      openai: 4.11.1
+      openai: 4.14.0
       papaparse: 5.4.1
       pdf-parse: 1.1.1
-      portkey-ai: 0.1.11
+      portkey-ai: 0.1.13
       rake-modified: 1.0.8
-      replicate: 0.20.0
+      replicate: 0.20.1
       tiktoken: 1.0.10
       uuid: 9.0.1
       wink-nlp: 1.14.3
@@ -3071,8 +3072,8 @@ packages:
       whatwg-url: 11.0.0
     dev: false
 
-  /mongodb@6.1.0:
-    resolution: {integrity: sha512-AvzNY0zMkpothZ5mJAaIo2bGDjlJQqqAbn9fvtVgwIIUPEfdrqGxqNjjbuKyrgQxg2EvCmfWdjq+4uj96c0YPw==}
+  /mongodb@6.2.0:
+    resolution: {integrity: sha512-d7OSuGjGWDZ5usZPqfvb36laQ9CPhnWkAGHT61x5P95p/8nMVeH8asloMwW6GcYFeB0Vj4CB/1wOTDG2RA9BFA==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
@@ -3099,7 +3100,7 @@ packages:
         optional: true
     dependencies:
       '@mongodb-js/saslprep': 1.1.0
-      bson: 6.1.0
+      bson: 6.2.0
       mongodb-connection-string-url: 2.6.0
     dev: false
 
@@ -3201,8 +3202,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /openai@4.11.1:
-    resolution: {integrity: sha512-GU0HQWbejXuVAQlDjxIE8pohqnjptFDIm32aPlNT1H9ucMz1VJJD0DaTJRQsagNaJ97awWjjVLEG7zCM6sm4SA==}
+  /openai@4.14.0:
+    resolution: {integrity: sha512-pWQYkFWdeudR1yLyS/rFfIv/MTXqFEtlN4EKVm0F6KKKGjhuthznPOCC4hxfAFmjlgbpJJXhQQ/oBeB9bxFmUw==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.18
@@ -3213,6 +3214,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
+      web-streams-polyfill: 3.2.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -3368,8 +3370,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /portkey-ai@0.1.11:
-    resolution: {integrity: sha512-KRZLB7zdvJ40P6WuRAb6VE2gin7SXhbRs7ESqnxDeO8C+ECtKDrrS5g0+l3pD9+HZO4iCvvIROaRyd1NOyLmWw==}
+  /portkey-ai@0.1.13:
+    resolution: {integrity: sha512-cCclnsbHGiFN6dz0FW29h0bixoRAsqJCkDhK56K9TRjWC6PDFaplYYaxo7SIO0Cjb0NKsjtEH5QdT0kPmirbLQ==}
     dependencies:
       agentkeepalive: 4.5.0
     dev: false
@@ -3471,8 +3473,8 @@ packages:
       strip-indent: 4.0.0
     dev: true
 
-  /replicate@0.20.0:
-    resolution: {integrity: sha512-HSIdj0IHhpegy8s3yDMMYCNLPLZqWzScxnFEyxUQcWgbHn3ycEG5Z8uCwt1Bkp6mTOyEmVv2Ot0WRoXzHFuJ6A==}
+  /replicate@0.20.1:
+    resolution: {integrity: sha512-QVyI1rowGsSfNuDrRmumYPdCHa/fN/RkI3NHpcK0i5hSSiWK69URAyheAC/0MIAiS3oUs4kD56PB9zEI4oHENw==}
     engines: {git: '>=2.11.0', node: '>=18.0.0', npm: '>=7.19.0', yarn: '>=1.7.0'}
     dev: false
 
@@ -3913,6 +3915,11 @@ packages:
     dependencies:
       makeerror: 1.0.12
     dev: true
+
+  /web-streams-polyfill@3.2.1:
+    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
+    engines: {node: '>= 8'}
+    dev: false
 
   /web-streams-polyfill@4.0.0-beta.3:
     resolution: {integrity: sha512-QW95TCTaHmsYfHDybGMwO5IJIM93I/6vTRk+daHTWFPhwh+C8Cg7j7XyKrwrj8Ib6vYXe0ocYNrmzY4xAAN6ug==}
