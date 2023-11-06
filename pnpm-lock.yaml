@@ -36,8 +36,8 @@ dependencies:
     specifier: ^16.3.1
     version: 16.3.1
   llamaindex:
-    specifier: ^0.0.32
-    version: 0.0.32
+    specifier: ^0.0.34
+    version: 0.0.34
   openai:
     specifier: ^4.5.0
     version: 4.8.0
@@ -83,8 +83,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.19
     dev: true
 
-  /@anthropic-ai/sdk@0.8.1:
-    resolution: {integrity: sha512-59etePenCizVx1O8Qhi1T1ruE04ISfNzCnyhZNcsss1QljsLmYS83jttarMNEvGYcsUF7rwxw2lzcC3Zbxao7g==}
+  /@anthropic-ai/sdk@0.9.0:
+    resolution: {integrity: sha512-qNoNld9luBWNcmCFTIZrsmusCQIdxIxQXyHJ64IDUsrvPvy2lM0kA9+E6bHeeFut463zdGkVz0Ux0U+WDppLGg==}
     dependencies:
       '@types/node': 18.17.18
       '@types/node-fetch': 2.6.5
@@ -2878,11 +2878,11 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /llamaindex@0.0.32:
-    resolution: {integrity: sha512-LRe6Gna/Tfeu9qq2gk0LW2tO/1To0wB0ufNLz9xNgdxRNWZe0U1GAxOfsGMjAOT9OHHwfVNVIWYoIImTZ5nLYw==}
+  /llamaindex@0.0.34:
+    resolution: {integrity: sha512-oRgN3GtwN8XGUpcqoPrDvtsIuVzZ62lAvPsA7wvk5C17hpEvLKy5OYSAVG/Cyces3wFrR+ySfAOQne2RJJSh3w==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@anthropic-ai/sdk': 0.8.1
+      '@anthropic-ai/sdk': 0.9.0
       '@notionhq/client': 2.2.13
       js-tiktoken: 1.0.7
       lodash: 4.17.21
@@ -2890,10 +2890,10 @@ packages:
       md-utils-ts: 2.0.0
       mongodb: 6.2.0
       notion-md-crawler: 0.0.2
-      openai: 4.14.0
+      openai: 4.16.0
       papaparse: 5.4.1
       pdf-parse: 1.1.1
-      portkey-ai: 0.1.13
+      portkey-ai: 0.1.16
       rake-modified: 1.0.8
       replicate: 0.20.1
       string-strip-html: 13.4.3
@@ -3234,8 +3234,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /openai@4.14.0:
-    resolution: {integrity: sha512-pWQYkFWdeudR1yLyS/rFfIv/MTXqFEtlN4EKVm0F6KKKGjhuthznPOCC4hxfAFmjlgbpJJXhQQ/oBeB9bxFmUw==}
+  /openai@4.16.0:
+    resolution: {integrity: sha512-P7IWqvaP0EuD3cQvzmU24KprnS0tHavrTuMiChEOa7pugqrKUfcmTnHcr+w01sJHny3vYoTvydCZ77cQolYj+g==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.18
@@ -3402,8 +3402,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /portkey-ai@0.1.13:
-    resolution: {integrity: sha512-cCclnsbHGiFN6dz0FW29h0bixoRAsqJCkDhK56K9TRjWC6PDFaplYYaxo7SIO0Cjb0NKsjtEH5QdT0kPmirbLQ==}
+  /portkey-ai@0.1.16:
+    resolution: {integrity: sha512-EY4FRp6PZSD75Q1o1qc08DfPNTG9FnkUPN3Z1/lEvaq9iFpSO5UekcagUZaKSVhao311qjBjns+kF0rS9ht7iA==}
     dependencies:
       agentkeepalive: 4.5.0
     dev: false
