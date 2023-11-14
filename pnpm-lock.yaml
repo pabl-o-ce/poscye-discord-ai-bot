@@ -36,8 +36,8 @@ dependencies:
     specifier: ^16.3.1
     version: 16.3.1
   llamaindex:
-    specifier: ^0.0.34
-    version: 0.0.34
+    specifier: ^0.0.35
+    version: 0.0.35
   openai:
     specifier: ^4.5.0
     version: 4.8.0
@@ -2878,8 +2878,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /llamaindex@0.0.34:
-    resolution: {integrity: sha512-oRgN3GtwN8XGUpcqoPrDvtsIuVzZ62lAvPsA7wvk5C17hpEvLKy5OYSAVG/Cyces3wFrR+ySfAOQne2RJJSh3w==}
+  /llamaindex@0.0.35:
+    resolution: {integrity: sha512-wbUy+Afyq8swacfYPWku6CFDosLzbjTV0fOJRO0WEvOb+ghAyeckyU5SPQUN8Llv17c59z0bfhE5jOf62Fph0Q==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@anthropic-ai/sdk': 0.9.0
@@ -2890,7 +2890,7 @@ packages:
       md-utils-ts: 2.0.0
       mongodb: 6.2.0
       notion-md-crawler: 0.0.2
-      openai: 4.16.0
+      openai: 4.17.5
       papaparse: 5.4.1
       pdf-parse: 1.1.1
       portkey-ai: 0.1.16
@@ -3234,8 +3234,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /openai@4.16.0:
-    resolution: {integrity: sha512-P7IWqvaP0EuD3cQvzmU24KprnS0tHavrTuMiChEOa7pugqrKUfcmTnHcr+w01sJHny3vYoTvydCZ77cQolYj+g==}
+  /openai@4.17.5:
+    resolution: {integrity: sha512-SDgA933/QOjISCgWRc/JQhY1HweYZ6FOie3bWrCpj09FA5xIlaomldbyzICHNjtkh7SWEmGYFjRHIDtuwr+eTw==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.18
