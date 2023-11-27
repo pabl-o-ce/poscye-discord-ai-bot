@@ -36,8 +36,8 @@ dependencies:
     specifier: ^16.3.1
     version: 16.3.1
   llamaindex:
-    specifier: ^0.0.36
-    version: 0.0.36
+    specifier: ^0.0.37
+    version: 0.0.37
   openai:
     specifier: ^4.5.0
     version: 4.8.0
@@ -1293,15 +1293,6 @@ packages:
     resolution: {integrity: sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /assemblyai@3.1.1:
-    resolution: {integrity: sha512-rEhLnIZU7TupOkdzN9WjxhVU5bxMVofkNslzTArsuilaqOusPUmh6I7SGcJCGwKKE8qEweBaoY4DZ03cxv4KoA==}
-    dependencies:
-      ws: 8.14.2
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-    dev: false
 
   /asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
@@ -3047,14 +3038,13 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /llamaindex@0.0.36:
-    resolution: {integrity: sha512-XkpU/M18LYHgwgw/B7S6iEEnwkKajGU7+vOMovbbyPyB5A1UhYXw/XnBwmti/OHoa0rtyohyFvpe2fNVa7MA+A==}
+  /llamaindex@0.0.37:
+    resolution: {integrity: sha512-jAXAJWyIu3a4zNXi9XSxnxfq9elfF/Rej5r6mrirkGpBdeT9nUaJYS3PJH6bnPFMphAQznbdqHtXyKc7i0kjeg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
       '@notionhq/client': 2.2.13
       '@xenova/transformers': 2.9.0
-      assemblyai: 3.1.1
       crypto-js: 4.2.0
       js-tiktoken: 1.0.8
       lodash: 4.17.21
@@ -3076,7 +3066,6 @@ packages:
     transitivePeerDependencies:
       - '@aws-sdk/credential-providers'
       - '@mongodb-js/zstd'
-      - bufferutil
       - encoding
       - gcp-metadata
       - kerberos
@@ -3085,7 +3074,6 @@ packages:
       - snappy
       - socks
       - supports-color
-      - utf-8-validate
     dev: false
 
   /locate-path@5.0.0:
