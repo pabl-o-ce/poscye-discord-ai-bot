@@ -15,8 +15,8 @@ dependencies:
     specifier: ^7.0.2
     version: 7.0.2
   '@sapphire/fetch':
-    specifier: ^2.4.1
-    version: 2.4.1
+    specifier: ^3.0.0
+    version: 3.0.0
   '@sapphire/framework':
     specifier: ^5.0.0
     version: 5.0.2
@@ -1014,13 +1014,9 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/fetch@2.4.1:
-    resolution: {integrity: sha512-jKy1RCkuz2mIjsRZLVLUz9pbmDVZiFst3eVqJoDD/ay3u9NP054DYsRSE08q3EsZXHXte2dFIzVyiwL+iLeRNA==}
-    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
-    dependencies:
-      cross-fetch: 3.1.8
-    transitivePeerDependencies:
-      - encoding
+  /@sapphire/fetch@3.0.0:
+    resolution: {integrity: sha512-8kJih/HAQWgaiHrqYyvEZWFCLNYZ/l9dknSOYHPE/5JQ1ZTDCePUrej1AhN8h/PcYRKRxzBSLsX/vkXNLWps0w==}
+    engines: {node: '>=v18'}
     dev: false
 
   /@sapphire/framework@5.0.2:
@@ -1794,14 +1790,6 @@ packages:
 
   /create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
-
-  /cross-fetch@3.1.8:
-    resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
-    dependencies:
-      node-fetch: 2.7.0
-    transitivePeerDependencies:
-      - encoding
-    dev: false
 
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
