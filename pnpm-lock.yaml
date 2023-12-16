@@ -21,8 +21,8 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.2
   '@sapphire/plugin-subcommands':
-    specifier: ^5.0.0
-    version: 5.0.0
+    specifier: ^6.0.0
+    version: 6.0.1
   '@sapphire/ratelimits':
     specifier: ^2.4.6
     version: 2.4.7
@@ -1054,11 +1054,11 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/plugin-subcommands@5.0.0:
-    resolution: {integrity: sha512-C1QL14QDHPgw5K9yXqhQJqOmRVuECLbtjQT5VNUV4mFZdqfDeGSpws3NdCOj+jcgMySqQfw+Cg572O8yP7kzhQ==}
+  /@sapphire/plugin-subcommands@6.0.1:
+    resolution: {integrity: sha512-coV54cq/dqrYBJfjnV5GXq9xp4mPFxJKWDEMWcEbzYVe4/ikQo6ORL2zu1V3bAMHCF3dvHTQGDizOIW2p1ZB6w==}
     engines: {node: '>=v18', npm: '>=7'}
     dependencies:
-      '@sapphire/utilities': 3.13.0
+      '@sapphire/utilities': 3.14.0
       tslib: 2.6.2
     dev: false
 
