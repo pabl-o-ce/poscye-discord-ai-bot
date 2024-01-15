@@ -36,8 +36,8 @@ dependencies:
     specifier: ^16.3.1
     version: 16.3.1
   llamaindex:
-    specifier: ^0.0.44
-    version: 0.0.44
+    specifier: ^0.0.46
+    version: 0.0.46
   openai:
     specifier: ^4.5.0
     version: 4.8.0
@@ -3429,8 +3429,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /llamaindex@0.0.44:
-    resolution: {integrity: sha512-+yrodGHXp/XkCQJmjPh2WnhrHmN8qNZdsXHwhtic1B1fWBNOsLIgvgk+LA2t04bXx9LWKkmrqrkLpWtvufgH5g==}
+  /llamaindex@0.0.46:
+    resolution: {integrity: sha512-Ma2diJjpK3fAaw8FzOJkQ7U8aX5rxpBbZkZimT46fDJY+wBrfVYnxfLj91PXF999lDU7e3CmRSsEpiPqOiWAbQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
@@ -3457,7 +3457,6 @@ packages:
       rake-modified: 1.0.8
       replicate: 0.21.1
       string-strip-html: 13.4.3
-      uuid: 9.0.1
       wink-nlp: 1.14.3
     transitivePeerDependencies:
       - '@aws-sdk/credential-providers'
@@ -5050,11 +5049,6 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
-    dev: false
-
-  /uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
-    hasBin: true
     dev: false
 
   /v8-compile-cache-lib@3.0.1:
