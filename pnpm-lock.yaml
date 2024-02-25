@@ -25,7 +25,7 @@ dependencies:
     version: 6.0.1
   '@sapphire/ratelimits':
     specifier: ^2.4.6
-    version: 2.4.7
+    version: 2.4.9
   axios:
     specifier: ^1.5.0
     version: 1.5.0
@@ -1095,7 +1095,7 @@ packages:
       '@sapphire/discord.js-utilities': 7.1.3
       '@sapphire/lexure': 1.1.6
       '@sapphire/pieces': 4.0.2
-      '@sapphire/ratelimits': 2.4.8
+      '@sapphire/ratelimits': 2.4.9
       '@sapphire/result': 2.6.5
       '@sapphire/stopwatch': 1.5.1
       '@sapphire/utilities': 3.14.0
@@ -1125,13 +1125,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/ratelimits@2.4.7:
-    resolution: {integrity: sha512-IJQySiK+A8P4E+0oW2TGDy4RBjMsw3hccFL0y4kjQ2VZNzPDHJSYR4Pb1TzlG6V9YTVdCNWJODFXXyVn3tEQ/A==}
-    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
-    dev: false
-
-  /@sapphire/ratelimits@2.4.8:
-    resolution: {integrity: sha512-9v9GBl+6w1ur6pnr25yklTE5phBjVb8vuXWid8SMeFo0znC/bc7GSIFXRBLwZ/jaRtpJfk4xG4zewqa9bbepNw==}
+  /@sapphire/ratelimits@2.4.9:
+    resolution: {integrity: sha512-eEE385IrFsD90gg696MWNqbeDjo1ZgtBvL66BezIwJEwDguhLP5AVsBsT4uCacX/92aeHl8i2nVvtusIBXZNSg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
