@@ -16,7 +16,7 @@ dependencies:
     version: 7.0.2
   '@sapphire/fetch':
     specifier: ^3.0.0
-    version: 3.0.0
+    version: 3.0.2
   '@sapphire/framework':
     specifier: ^5.0.0
     version: 5.0.2
@@ -1081,8 +1081,8 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/fetch@3.0.0:
-    resolution: {integrity: sha512-8kJih/HAQWgaiHrqYyvEZWFCLNYZ/l9dknSOYHPE/5JQ1ZTDCePUrej1AhN8h/PcYRKRxzBSLsX/vkXNLWps0w==}
+  /@sapphire/fetch@3.0.2:
+    resolution: {integrity: sha512-Na3TP9B/ncq09YNj+9SWd2JXclTGYCIX+ZieGNfRsi38PpgE3hSSIn/7hAjpF/sV1uBfHHtc42mz24pEuEqZmQ==}
     engines: {node: '>=v18'}
     dev: false
 
