@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@sapphire/decorators':
     specifier: ^6.0.2
-    version: 6.0.2
+    version: 6.0.4
   '@sapphire/discord-utilities':
     specifier: ^3.1.1
     version: 3.1.1
@@ -1042,8 +1042,8 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/decorators@6.0.2:
-    resolution: {integrity: sha512-R0bsVvvT/iclElvdglpneIB6UGhzqT3DbMy8b0VHcjSSWArAfxFXiv7mVO/5VeiQduZFhWPgqtTWayKdRYY1NA==}
+  /@sapphire/decorators@6.0.4:
+    resolution: {integrity: sha512-FZJ3ajnJ6yIj42Z4u4vBli5CZ4nz80WKj8STfhrVfzZ2lzZuJBFOIH+pU9VzWaTfIXKrK/OaK9gj4mfABERJnw==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       tslib: 2.6.2
