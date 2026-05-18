@@ -25,7 +25,7 @@ dependencies:
     version: 6.0.1
   '@sapphire/ratelimits':
     specifier: ^2.4.6
-    version: 2.4.7
+    version: 2.4.11
   axios:
     specifier: ^1.5.0
     version: 1.5.0
@@ -1107,7 +1107,7 @@ packages:
       '@sapphire/discord.js-utilities': 7.1.3
       '@sapphire/lexure': 1.1.6
       '@sapphire/pieces': 4.0.2
-      '@sapphire/ratelimits': 2.4.8
+      '@sapphire/ratelimits': 2.4.11
       '@sapphire/result': 2.6.5
       '@sapphire/stopwatch': 1.5.1
       '@sapphire/utilities': 3.14.0
@@ -1137,13 +1137,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/ratelimits@2.4.7:
-    resolution: {integrity: sha512-IJQySiK+A8P4E+0oW2TGDy4RBjMsw3hccFL0y4kjQ2VZNzPDHJSYR4Pb1TzlG6V9YTVdCNWJODFXXyVn3tEQ/A==}
-    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
-    dev: false
-
-  /@sapphire/ratelimits@2.4.8:
-    resolution: {integrity: sha512-9v9GBl+6w1ur6pnr25yklTE5phBjVb8vuXWid8SMeFo0znC/bc7GSIFXRBLwZ/jaRtpJfk4xG4zewqa9bbepNw==}
+  /@sapphire/ratelimits@2.4.11:
+    resolution: {integrity: sha512-O6FNA/P0wxU4Ve9gxL948CoZw7+sSpujyUR2CLyLLCNuNvuFGFxPCJVl5crFVLXMIyBIrc2qk+/H9bsqsyQK1Q==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
@@ -4166,8 +4161,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /pg-cloudflare@1.1.1:
-    resolution: {integrity: sha512-xWPagP/4B6BgFO+EKz3JONXv3YDgvkbVrGw2mTo3D6tVDQRh1e7cqVGvyR3BE+eQgAvx1XhW/iEASj4/jCWl3Q==}
+  /pg-cloudflare@1.4.0:
+    resolution: {integrity: sha512-Vo7z/6rrQYxpNRylp4Tlob2elzbh+N/MOQbxFVWCxS7oEx6jF53GTJFxK2WWpKuBRkmiin4Mt+xofFDjx09R0A==}
     requiresBuild: true
     dev: false
     optional: true
@@ -4221,7 +4216,7 @@ packages:
       pg-types: 2.2.0
       pgpass: 1.0.5
     optionalDependencies:
-      pg-cloudflare: 1.1.1
+      pg-cloudflare: 1.4.0
     dev: false
 
   /pgpass@1.0.5:
