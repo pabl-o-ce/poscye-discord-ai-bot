@@ -16,7 +16,7 @@ dependencies:
     version: 7.0.2
   '@sapphire/fetch':
     specifier: ^3.0.0
-    version: 3.0.0
+    version: 3.0.5
   '@sapphire/framework':
     specifier: ^5.0.0
     version: 5.0.2
@@ -1093,8 +1093,8 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/fetch@3.0.0:
-    resolution: {integrity: sha512-8kJih/HAQWgaiHrqYyvEZWFCLNYZ/l9dknSOYHPE/5JQ1ZTDCePUrej1AhN8h/PcYRKRxzBSLsX/vkXNLWps0w==}
+  /@sapphire/fetch@3.0.5:
+    resolution: {integrity: sha512-YfH5iFFL+n21dEWfdNpSlN1Q4RH+84I9ZFLxtdlbqyWljkh1IwMU6UmHjnroiRJx9TwdFSQ0krHm4v0fV/VqiA==}
     engines: {node: '>=v18'}
     dev: false
 
@@ -4166,8 +4166,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /pg-cloudflare@1.1.1:
-    resolution: {integrity: sha512-xWPagP/4B6BgFO+EKz3JONXv3YDgvkbVrGw2mTo3D6tVDQRh1e7cqVGvyR3BE+eQgAvx1XhW/iEASj4/jCWl3Q==}
+  /pg-cloudflare@1.4.0:
+    resolution: {integrity: sha512-Vo7z/6rrQYxpNRylp4Tlob2elzbh+N/MOQbxFVWCxS7oEx6jF53GTJFxK2WWpKuBRkmiin4Mt+xofFDjx09R0A==}
     requiresBuild: true
     dev: false
     optional: true
@@ -4221,7 +4221,7 @@ packages:
       pg-types: 2.2.0
       pgpass: 1.0.5
     optionalDependencies:
-      pg-cloudflare: 1.1.1
+      pg-cloudflare: 1.4.0
     dev: false
 
   /pgpass@1.0.5:
